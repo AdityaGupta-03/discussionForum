@@ -31,3 +31,5 @@ The malicious code is usually added to the end of a URL or posted directly onto 
 Handling this with the help of Str_replace by replacing the < > anchor tags and quotes with their codes.
 
 5. Pagination on Questions and comments.
+
+Develop these functionalities in order to make your project more enhanced.
