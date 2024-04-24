@@ -1,0 +1,33 @@
+## Challenges faced :
+1. Managing file structure for reuablity cases
+2. Closing the DB resources
+3. Inclding those components at every file location
+4. Maintaing the images directory
+5. DB Foreignkey issue
+6. inserting the record when user is logged inclding
+7. Interlinking 4 tables with the help of Foreignkey adjustments
+8. Resubmission of forms/threads on reloading the page which cause insertion of same data into DB
+9. setting footer at the bottom of the page
+10. signup and login modal submission
+11. extracting threads and comments from different tables based on different ids $_POST and $_GET
+12 Interlinking of files and the components.
+
+## Flowchart 
+- categories table -> Category ID , Category Name, Category Description, Created At (For Index Page)
+
+- user table -> User_ID, Name, Email, Username, Password, Created At (For Signp / Login = Header)
+
+- thread table -> thread_ID , Thread_Title, Thread_Description, userID, CategoryID, Created_At (For threadList)
+
+- comment table -> Comment_ID, Comment Text, Thread_ID , Created At (for Threads)
+
+## TODOs:
+1. Edit and Delete the comments.
+2. Inserting categories.
+3. Handling date and time sing new Date() in PHP for comments and threads.
+4. Handling XSS attack on the site - 
+- Cross-site scripting (XSS) is a web security issue where cyber criminals use web applications or pages to send malicious code to a website, compromising the user's interactions with the application. 
+The malicious code is usually added to the end of a URL or posted directly onto a page that shows user-generated content
+Handling this with the help of Str_replace by replacing the < > anchor tags and quotes with their codes.
+
+5. Pagination on Questions and comments.
